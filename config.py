@@ -24,11 +24,11 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002691313384"))
 # Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 # Default reply sent to users when they message the bot directly.
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", ""👋 Hello, @{query.from_user.username}!\n\n"
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "👋 Hello, @{query.from_user.username}!\n\n"
     "🎬 Looking for videos? Join our exclusive channel where we post video links regularly!\n"
     "👉 <a href='https://t.me/AdultsVideoLink'>📲 Join Our Video Channel</a>\n\n"
     "🔗 Just click the links in the channel to watch or download videos instantly.\n\n"
-    "💬 <b>Need Help?</b> <a href='https://t.me/DadyIsCalling'>Contact @DadyIsCalling</a>"")
+    "💬 <b>Need Help?</b> <a href='https://t.me/DadyIsCalling'>Contact @DadyIsCalling</a>")
 
 # Paste your bot token here (get it from https://t.me/BotFather)
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
