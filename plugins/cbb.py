@@ -20,7 +20,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ More Bots: <a href='https://github.com/Trinity-Mods'>Trinity Mods</a>\n○ Language: <a href='https://www.python.org/'>Python 3</a>\n○ Fueled By: <a href='https://t.me/infohub_updates'>InfoHub Updates</a>\n○ Server: <a href='https://www.ubuntu.com/'>Private VPS</a></b>",
+            text = f"<b>○ More Bots: <a href='https://t.me/UniformMovies'>Uɴɪғᴏʀᴍ Mᴏᴠɪᴇs</a>\n○ Language: <a href='https://www.python.org/'>Python 3</a>\n○ Fueled By: <a href='https://t.me/AdultsVideoLink'>Aᴅᴜʟᴛs Vɪᴅᴇᴏ Lɪɴᴋ</a>\n○ Server: <a href='https://www.ubuntu.com/'>Private VPS</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -38,7 +38,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             pass
     elif data == "buy_prem":
         await query.message.edit_text(
-            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – {PRICE1}/7 days, {PRICE2}/1 month, {PRICE3}/3 months, {PRICE4}/6 months, {PRICE5}/1 year | 💵 UPI ID: <code>{UPI_ID}</code> | 📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay | 🧾 After payment, send your screenshot | 💬 For help or alternative payment methods, contact @the_universal_being",
+            text=f"👋 @{query.from_user.username}, here are our Prime Membership plans – {PRICE1}/7 days,/n/n {PRICE2}/1 month,/n/n {PRICE3}/3 months,/n/n {PRICE4}/6 months,/n/n {PRICE5}/1 year |/n/n 💵 UPI ID: <code>{UPI_ID}</code> |/n/n 📸 <a href='{UPI_IMAGE_URL}'>Scan QR Code</a> to pay |/n/n 🧾 After payment, send your screenshot |/n/n 💬 For help or alternative payment methods, contact @DadyIsCalling",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
