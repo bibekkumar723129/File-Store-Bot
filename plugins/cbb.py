@@ -50,7 +50,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     f"📸 <a href='{UPI_IMAGE_URL}'>Cʟɪᴄᴋ Hᴇʀᴇ ᴛᴏ Sᴄᴀɴ Qʀ Cᴏᴅᴇ</a>\n\n"
     f"🧾 <b>🔐 Aꜰᴛᴇʀ Pᴀʏᴍᴇɴᴛ:</b> Sᴇɴᴅ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ.\n\n"
     f"💬 <b>Nᴇᴇᴅ Hᴇʟᴘ?</b> <a href='https://t.me/DadyIsCalling'>Cᴏɴᴛᴀᴄᴛ @DadyIsCalling</a>"
-)",
+),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
                 [   
