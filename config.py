@@ -106,7 +106,7 @@ FORCE_MSG = os.environ.get("FORCE_MSG", "ʜᴇʟʟᴏ ᴛʜᴇʀᴇ {mention}!!�
 # Enter a custom caption that will be auto-attached to files shared by the bot.
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "Bot is designed with ❤️ by :\n\n<b>DadyIsCalling</b>\n\nGithub: https://github.com/\nTelegram: https://t.me/DadyIsCalling")
 # Protect content from being forwarded or saved. Set to TRUE to enable, FALSE to disable (recommended: FALSE).
-PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "FALSE") == "TRUE" else False
+PROTECT_CONTENT = True if os.environ.get("PROTECT_CONTENT", "TRUE") == "TRUE" else False
 # Use this option if you do not want buttons to appear on posts in the database channel.  
 # Set to TRUE to disable buttons, False to keep them.
 DISABLE_CHANNEL_BUTTON = True if os.environ.get("DISABLE_CHANNEL_BUTTON", "TRUE") == "TRUE" else False
