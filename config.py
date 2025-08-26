@@ -24,8 +24,8 @@ FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002691313384"))
 # Display the Bot's Uptime
 BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}")
 # Default reply sent to users when they message the bot directly.
-USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "👋 Hello, @{query.from_user.username}!\n\n"
-    "🎬 Looking for videos? Join our exclusive channel where we post video links regularly!\n"
+USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "👋 Hɪɪ, I Aᴍ Mᴀᴅᴇ Bʏ @DadyIsCalling !\n\n"
+    "🎬 Lᴏᴏᴋɪɴɢ ғᴏʀ ᴠɪᴅᴇᴏs? Jᴏɪɴ ᴏᴜʀ ᴇxᴄʟᴜsɪᴠᴇ ᴄʜᴀɴɴᴇʟ ᴡʜᴇʀᴇ ᴡᴇ ᴘᴏsᴛ ᴠɪᴅᴇᴏ ʟɪɴᴋs ʀᴇɢᴜʟᴀʀʟʏ!\n\n"
     "👉 <a href='https://t.me/AdultsVideoLink'>📲 Join Our Video Channel</a>\n\n"
     "🔗 Just click the links in the channel to watch or download videos instantly.\n\n"
     "💬 <b>Need Help?</b> <a href='https://t.me/DadyIsCalling'>Contact @DadyIsCalling</a>")
